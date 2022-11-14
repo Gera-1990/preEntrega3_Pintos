@@ -140,7 +140,9 @@ article p {
 
 footer {
   color: white;
-  background-image: radial-gradient(skyblue, darkblue);
+  background-image: url("../img/new-background-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 }
 
@@ -174,7 +176,7 @@ button i {
 }
 
 button i:hover {
-  color: darkblue;
+  color: skyblue;
 }
 
 /* ----- Desktop -------*/
