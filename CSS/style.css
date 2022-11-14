@@ -7,7 +7,9 @@
 /* ------- Mobile -------- */
 
 header {
-  background-image: radial-gradient(skyblue, darkblue);
+  background-image: url("../img/new-background-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
