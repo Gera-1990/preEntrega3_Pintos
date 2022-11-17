@@ -21,6 +21,7 @@ header img {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  color: skyblue;
 }
 
 .title {
@@ -37,6 +38,7 @@ header img {
   list-style-type: none;
   font-size: 1.3rem;
 }
+
 ul a {
   color: white;
   text-decoration: none;
@@ -224,6 +226,7 @@ button i:hover {
     display: flex;
     flex-direction: column;
     text-align: left;
+    color: skyblue;
   }
 
   ul a {
