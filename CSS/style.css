@@ -283,6 +283,7 @@ button i:hover {
   article p {
     padding: 5px;
     margin-bottom: 5px;
+    font-size: 1.2rem;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
