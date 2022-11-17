@@ -134,6 +134,12 @@ article p {
   margin-left: 10px;
 }
 
+.aldar {
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .tabla {
   display: flex;
   flex-direction: column;
@@ -426,6 +432,15 @@ button i:hover {
   .nombre2 {
     grid-area: nombre2;
     font-size: 1.5rem;
+  }
+
+  .aldar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
 
   .team li {
