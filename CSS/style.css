@@ -333,29 +333,13 @@ button i:hover {
   }
 
   .florentino {
-    display: grid;
-    grid-template-columns: 25% 75%;
-    grid-template-rows: 10% 45% 45%;
-    justify-content: space-around;
-    align-items: center;
-    grid-gap: 10px;
-
-    grid-template-areas:
-      "titulo titulo"
-      "img content"
-      "img content";
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
   }
 
-  .florentino-title {
-    grid-area: titulo;
-  }
-
-  .florentino-img {
-    grid-area: img;
-  }
-
-  .florentino-content {
-    grid-area: content;
+  .florentino img {
+    max-width: 50%;
   }
 
   .citysport {
@@ -496,6 +480,16 @@ button i:hover {
 
   button i:hover {
     color: skyblue;
-    font-size: 50px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .florentino {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .florentino img {
+    max-width: 100%;
   }
 }
