@@ -1,0 +1,500 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Vista Mobile */
+
+header {
+  background-image: url("../img/new-background-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  img {
+    width: 30%;
+  }
+
+  .navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    color: skyblue;
+    list-style-type: none;
+    font-size: 1.3rem;
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: greenyellow;
+      }
+    }
+  }
+
+  .title {
+    color: white;
+    font-size: 3rem;
+    font-family: "Courier New", Courier, monospace;
+
+    i {
+      color: skyblue;
+    }
+  }
+}
+
+/* Estilos Generales */
+
+main {
+  padding: 5px;
+  max-width: 100%;
+
+  img {
+    max-width: 100%;
+  }
+
+  article {
+    margin-bottom: 25px;
+
+    p {
+      padding: 5px;
+      margin-bottom: 5px;
+      font-size: 1.2rem;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  background-color: skyblue;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+}
+
+/* Estilos particulares */
+
+.grealish {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+
+  img {
+    min-width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.citysport {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+
+  img {
+    min-width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.flor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+
+  img {
+    min-width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.jeques {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  img {
+    min-width: 60%;
+    max-width: 60%;
+  }
+}
+
+.team {
+  li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+}
+
+.aldar {
+  margin: 15px;
+  text-align: center;
+  font-weight: bold;
+
+  img {
+    min-width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.tabla {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+footer {
+  color: white;
+  background-image: url("../img/new-background-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+  h4 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 10px;
+
+    i {
+      color: skyblue;
+    }
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  button {
+    font-size: 40px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+
+    i {
+      color: white;
+
+      &:hover {
+        color: skyblue;
+      }
+    }
+  }
+}
+
+/* Vista Desktop */
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-image: linear-gradient(to bottom, skyblue, darkblue);
+    height: 50vh;
+
+    img {
+      height: 100%;
+      padding: 5px;
+      animation: img-header 1.5s ease;
+    }
+
+    @keyframes img-header {
+      0% {
+        opacity: 0;
+        transform: translateX(80px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+
+    .title {
+      color: white;
+      font-size: 3rem;
+      font-family: "Courier New", Courier, monospace;
+
+      i {
+        color: skyblue;
+      }
+    }
+
+    .navbar {
+      list-style-type: none;
+      font-size: 1.3rem;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      color: skyblue;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: gold;
+      }
+    }
+  }
+
+  /* Estilos Generales */
+
+  main {
+    max-width: 80%;
+    margin: 0px auto;
+
+    img {
+      max-width: 100%;
+    }
+
+    article {
+      margin-bottom: 25px;
+
+      p {
+        padding: 5px;
+        margin-bottom: 5px;
+        font-size: 1.2rem;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-align: center;
+  }
+
+  h2 {
+    color: white;
+    background-color: skyblue;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.5rem;
+  }
+
+  /* Estilos Particulares */
+
+  .grealish {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 20% 40% 40%;
+    justify-content: center;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: stretch;
+    padding: 10px;
+
+    grid-template-areas:
+      "titulo titulo titulo"
+      "foto1 foto2 foto3"
+      "foto4 foto5 foto6";
+
+    .grealish-title {
+      grid-area: titulo;
+    }
+    .grealish-img1 {
+      grid-area: foto1;
+    }
+    .grealish-img2 {
+      grid-area: foto2;
+    }
+    .grealish-img3 {
+      grid-area: foto3;
+    }
+    .grealish-img4 {
+      grid-area: foto4;
+    }
+    .grealish-img5 {
+      grid-area: foto5;
+    }
+    .grealish-img6 {
+      grid-area: foto6;
+    }
+  }
+
+  .flor {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+    img {
+      max-width: 50%;
+    }
+  }
+
+  .citysport {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 10% repeat(2, 45%);
+    grid-gap: 5px;
+    padding: 5px;
+    align-items: stretch;
+
+    grid-template-areas:
+      "title title"
+      "p1 p2"
+      "p3 p4"
+      "p5 p6";
+
+    .citysport-title {
+      grid-area: title;
+    }
+
+    .p1 {
+      grid-area: p1;
+    }
+    .p2 {
+      grid-area: p2;
+    }
+    .p3 {
+      grid-area: p3;
+    }
+    .p4 {
+      grid-area: p4;
+    }
+    .p5 {
+      grid-area: p5;
+    }
+    .p6 {
+      grid-area: p6;
+    }
+  }
+
+  .jeques {
+    display: grid;
+    grid-template-columns: 1f 1f;
+    grid-template-rows: 80% 20%;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: stretch;
+    padding: 20px;
+
+    grid-template-areas:
+      "nombre1 nombre2"
+      "mansour khaldoon";
+
+    .mansour {
+      grid-area: mansour;
+      width: 400px;
+    }
+
+    .khaldoon {
+      grid-area: khaldoon;
+      width: 400px;
+    }
+
+    .nombre1 {
+      grid-area: nombre1;
+      font-size: 1.5rem;
+    }
+
+    .nombre2 {
+      grid-area: nombre2;
+      font-size: 1.5rem;
+    }
+  }
+
+  .aldar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .team {
+    li {
+      margin-bottom: 5px;
+      margin-left: 10px;
+    }
+  }
+
+  .tabla {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer {
+    background-image: linear-gradient(to bottom, darkblue, skyblue);
+    text-align: center;
+    color: white;
+
+    h4 {
+      text-align: center;
+      font-size: 1.3rem;
+      font-family: "Courier New", Courier, monospace;
+      margin-bottom: 10px;
+
+      i {
+        color: skyblue;
+      }
+    }
+
+    .btns {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    button {
+      font-size: 40px;
+      margin-bottom: 15px;
+      background-color: transparent;
+      border: none;
+
+      i {
+        color: white;
+
+        &:hover {
+          color: skyblue;
+        }
+      }
+    }
+  }
+}
