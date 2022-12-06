@@ -119,19 +119,6 @@ h3 {
   }
 }
 
-.flor {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding: 5px;
-  justify-content: center;
-
-  img {
-    min-width: 100%;
-    margin-bottom: 5px;
-  }
-}
-
 .jeques {
   display: flex;
   flex-direction: column;
@@ -354,7 +341,6 @@ footer {
       grid-area: foto6;
     }
   }
-
 
   .citysport {
     display: grid;
