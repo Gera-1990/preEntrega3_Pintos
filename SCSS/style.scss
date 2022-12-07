@@ -159,6 +159,10 @@ h3 {
   text-align: center;
 }
 
+form {
+  background-color: skyblue;
+}
+
 footer {
   color: white;
   background-image: url("../img/new-background-header.jpg");
@@ -434,6 +438,15 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+
+  form {
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    label {
+      color: skyblue;
+    }
   }
 
   footer {

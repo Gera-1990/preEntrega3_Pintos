@@ -140,6 +140,10 @@ h3 {
   text-align: center;
 }
 
+form {
+  background-color: skyblue;
+}
+
 footer {
   color: white;
   background-image: url("../img/new-background-header.jpg");
@@ -364,6 +368,14 @@ footer button i:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+  form {
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+  }
+  form label {
+    color: skyblue;
   }
   footer {
     background-image: linear-gradient(to bottom, darkblue, skyblue);
