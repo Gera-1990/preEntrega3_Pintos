@@ -141,7 +141,12 @@ h3 {
 }
 
 form {
-  background-color: skyblue;
+  background-image: url("../img/haaland background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: wheat;
+  font-weight: bold;
+  font-family: 1.2rem;
 }
 
 footer {
@@ -370,12 +375,14 @@ footer button i:hover {
     text-align: center;
   }
   form {
-    background-color: darkblue;
+    background-image: linear-gradient(to bottom, darkblue, skyblue);
     color: white;
-    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
   }
-  form label {
-    color: skyblue;
+  spam {
+    font-size: 3rem;
+    font-weight: bold;
   }
   footer {
     background-image: linear-gradient(to bottom, darkblue, skyblue);
