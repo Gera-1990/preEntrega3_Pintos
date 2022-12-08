@@ -37,46 +37,53 @@
       <form action="">
         <fieldset>
           <legend>Contactenos</legend>
-          <label for="nombre">Nombre y apellido:</label>
-          <input type="text" name="nombre" id="nombre" />
-          <br />
-          <br />
-          <label for="email">Email</label>
-          <input type="text" name="email" id="email" />
-          <br />
-          <br />
-          <label for="telfono">Telefono</label>
-          <input type="text" name="telefono" id="telefono" />
-          <br />
-          <br />
-          <div>Método de contacto</div>
-          <label for="telefono">Teléfono</label>
-          <input type="radio" name="contacto" value="telefono" />
-          <label for="mujer">Email</label>
-          <input type="radio" name="contacto" value="email" />
-          <br />
-          <br />
-          <br />
-          <label for="valoracion">Valora nuestro sitio</label>
-          <select name="numero de estrellas" id="numero de estrellas">
-            <option value="none"></option>
-            <option value="uno">1</option>
-            <option value="dos">2</option>
-            <option value="tres">3</option>
-            <option value="cuatro">4</option>
-            <option value="cinco">5</option>
-          </select>
-          <br />
-          <br />
-          <div>Quiere recibir las últimas novedades?</div>
-          <input type="checkbox" name="acepta" id="acepta" value="1" />
-          <br />
-          <label for="mensaje">Mensaje</label>
-          <br />
-          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-          <div>
-            <input type="submit" value="Enviar formulario" />
-            <input type="submit" value="Borrar formulario" />
+          <div class="formulario">
+            <label for="nombre">Nombre y apellido:</label>
+            <input type="text" name="nombre" id="nombre" />
+            <br />
+            <br />
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+            <br />
+            <br />
+            <label for="telfono">Telefono</label>
+            <input type="text" name="telefono" id="telefono" />
+            <br />
+            <br />
+            <div>Método de contacto</div>
+            <label for="telefono">Teléfono</label>
+            <input type="radio" name="contacto" value="telefono" />
+            <label for="mujer">Email</label>
+            <input type="radio" name="contacto" value="email" />
+            <br />
+            <br />
+            <br />
+            <label for="valoracion">Valora nuestro sitio</label>
+            <select name="numero de estrellas" id="numero de estrellas">
+              <option value="none"></option>
+              <option value="uno">1</option>
+              <option value="dos">2</option>
+              <option value="tres">3</option>
+              <option value="cuatro">4</option>
+              <option value="cinco">5</option>
+            </select>
+            <br />
+            <br />
+            <div>Quiere recibir las últimas novedades?</div>
+            <input type="checkbox" name="acepta" id="acepta" value="1" />
+            <br />
+            <label for="mensaje">Mensaje</label>
+            <br />
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <div>
+              <input type="submit" value="Enviar formulario" />
+              <input type="submit" value="Borrar formulario" />
+            </div>
           </div>
         </fieldset>
       </form>

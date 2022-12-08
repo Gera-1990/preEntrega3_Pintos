@@ -1,0 +1,208 @@
+header {
+  background-image: url("../img/new-background-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  img {
+    width: 30%;
+  }
+
+  .navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    color: skyblue;
+    list-style-type: none;
+    font-size: 1.3rem;
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: greenyellow;
+      }
+    }
+  }
+
+  .title {
+    color: white;
+    font-size: 3rem;
+    font-family: "Courier New", Courier, monospace;
+
+    i {
+      color: skyblue;
+    }
+  }
+}
+
+/* Estilos Generales */
+
+main {
+  padding: 5px;
+  max-width: 100%;
+
+  img {
+    max-width: 100%;
+  }
+
+  article {
+    margin-bottom: 25px;
+
+    p {
+      padding: 5px;
+      margin-bottom: 5px;
+      font-size: 1.2rem;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  background-color: skyblue;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+}
+
+form {
+  background-image: url("../img/haaland\ background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: wheat;
+  font-weight: bold;
+  font-family: 1.3rem;
+
+  .formulario {
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: right;
+  }
+}
+
+footer {
+  color: white;
+  background-image: url("../img/new-background-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+  h4 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 10px;
+
+    i {
+      color: skyblue;
+    }
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  button {
+    font-size: 40px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+
+    i {
+      color: white;
+
+      &:hover {
+        color: skyblue;
+      }
+    }
+  }
+}
+
+/* Estilos particulares */
+
+.grealish {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+
+  img {
+    min-width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.citysport {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+
+  img {
+    min-width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.jeques {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  img {
+    min-width: 60%;
+    max-width: 60%;
+  }
+}
+
+.team {
+  li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+}
+
+.aldar {
+  margin: 15px;
+  text-align: center;
+  font-weight: bold;
+
+  img {
+    min-width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.tabla {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
