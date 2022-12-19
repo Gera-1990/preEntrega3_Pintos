@@ -127,7 +127,6 @@ footer button i:hover {
   color: skyblue;
 }
 
-/* Estilos particulares */
 .grealish {
   display: flex;
   flex-direction: column;
@@ -234,7 +233,6 @@ footer button i:hover {
   header a:hover {
     color: gold;
   }
-  /* Estilos Generales */
   main {
     max-width: 80%;
     margin: 0px auto;
@@ -320,117 +318,111 @@ footer button i:hover {
   footer button i:hover {
     color: skyblue;
   }
-}
-/* Estilos Particulares */
-.grealish {
-  display: grid;
-  grid-template-columns: repeat(3, 30%);
-  grid-template-rows: 20% 40% 40%;
-  justify-content: center;
-  grid-gap: 10px;
-  justify-items: center;
-  align-items: stretch;
-  padding: 10px;
-  grid-template-areas: "titulo titulo titulo" "foto1 foto2 foto3" "foto4 foto5 foto6";
-}
-.grealish .grealish-title {
-  grid-area: titulo;
-}
-.grealish .grealish-img1 {
-  grid-area: foto1;
-}
-.grealish .grealish-img2 {
-  grid-area: foto2;
-}
-.grealish .grealish-img3 {
-  grid-area: foto3;
-}
-.grealish .grealish-img4 {
-  grid-area: foto4;
-}
-.grealish .grealish-img5 {
-  grid-area: foto5;
-}
-.grealish .grealish-img6 {
-  grid-area: foto6;
-}
-
-.citysport {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 10% repeat(2, 45%);
-  grid-gap: 5px;
-  padding: 5px;
-  align-items: stretch;
-  grid-template-areas: "title title" "p1 p2" "p3 p4" "p5 p6";
-}
-.citysport .citysport-title {
-  grid-area: title;
-}
-.citysport .p1 {
-  grid-area: p1;
-}
-.citysport .p2 {
-  grid-area: p2;
-}
-.citysport .p3 {
-  grid-area: p3;
-}
-.citysport .p4 {
-  grid-area: p4;
-}
-.citysport .p5 {
-  grid-area: p5;
-}
-.citysport .p6 {
-  grid-area: p6;
-}
-
-.jeques {
-  display: grid;
-  grid-template-columns: 1f 1f;
-  grid-template-rows: 80% 20%;
-  justify-content: space-evenly;
-  justify-items: center;
-  align-items: stretch;
-  padding: 20px;
-  grid-template-areas: "nombre1 nombre2" "mansour khaldoon";
-}
-.jeques .mansour {
-  grid-area: mansour;
-  width: 400px;
-}
-.jeques .khaldoon {
-  grid-area: khaldoon;
-  width: 400px;
-}
-.jeques .nombre1 {
-  grid-area: nombre1;
-  font-size: 1.5rem;
-}
-.jeques .nombre2 {
-  grid-area: nombre2;
-  font-size: 1.5rem;
-}
-
-.aldar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.team li {
-  margin-bottom: 5px;
-  margin-left: 10px;
-}
-
-.tabla {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  .grealish {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 20% 40% 40%;
+    justify-content: center;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: stretch;
+    padding: 10px;
+    grid-template-areas: "titulo titulo titulo" "foto1 foto2 foto3" "foto4 foto5 foto6";
+  }
+  .grealish .grealish-title {
+    grid-area: titulo;
+  }
+  .grealish .grealish-img1 {
+    grid-area: foto1;
+  }
+  .grealish .grealish-img2 {
+    grid-area: foto2;
+  }
+  .grealish .grealish-img3 {
+    grid-area: foto3;
+  }
+  .grealish .grealish-img4 {
+    grid-area: foto4;
+  }
+  .grealish .grealish-img5 {
+    grid-area: foto5;
+  }
+  .grealish .grealish-img6 {
+    grid-area: foto6;
+  }
+  .citysport {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 10% repeat(2, 45%);
+    grid-gap: 5px;
+    padding: 5px;
+    align-items: stretch;
+    grid-template-areas: "title title" "p1 p2" "p3 p4" "p5 p6";
+  }
+  .citysport .citysport-title {
+    grid-area: title;
+  }
+  .citysport .p1 {
+    grid-area: p1;
+  }
+  .citysport .p2 {
+    grid-area: p2;
+  }
+  .citysport .p3 {
+    grid-area: p3;
+  }
+  .citysport .p4 {
+    grid-area: p4;
+  }
+  .citysport .p5 {
+    grid-area: p5;
+  }
+  .citysport .p6 {
+    grid-area: p6;
+  }
+  .jeques {
+    display: grid;
+    grid-template-columns: 1f 1f;
+    grid-template-rows: 80% 20%;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: stretch;
+    padding: 20px;
+    grid-template-areas: "nombre1 nombre2" "mansour khaldoon";
+  }
+  .jeques .mansour {
+    grid-area: mansour;
+    width: 400px;
+  }
+  .jeques .khaldoon {
+    grid-area: khaldoon;
+    width: 400px;
+  }
+  .jeques .nombre1 {
+    grid-area: nombre1;
+    font-size: 1.5rem;
+  }
+  .jeques .nombre2 {
+    grid-area: nombre2;
+    font-size: 1.5rem;
+  }
+  .aldar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .team li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+  .tabla {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

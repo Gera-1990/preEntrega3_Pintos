@@ -52,8 +52,6 @@
     }
   }
 
-  /* Estilos Generales */
-
   main {
     max-width: 80%;
     margin: 0px auto;
@@ -157,138 +155,136 @@
       }
     }
   }
-}
 
-/* Estilos Particulares */
+  .grealish {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 20% 40% 40%;
+    justify-content: center;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: stretch;
+    padding: 10px;
 
-.grealish {
-  display: grid;
-  grid-template-columns: repeat(3, 30%);
-  grid-template-rows: 20% 40% 40%;
-  justify-content: center;
-  grid-gap: 10px;
-  justify-items: center;
-  align-items: stretch;
-  padding: 10px;
+    grid-template-areas:
+      "titulo titulo titulo"
+      "foto1 foto2 foto3"
+      "foto4 foto5 foto6";
 
-  grid-template-areas:
-    "titulo titulo titulo"
-    "foto1 foto2 foto3"
-    "foto4 foto5 foto6";
-
-  .grealish-title {
-    grid-area: titulo;
-  }
-  .grealish-img1 {
-    grid-area: foto1;
-  }
-  .grealish-img2 {
-    grid-area: foto2;
-  }
-  .grealish-img3 {
-    grid-area: foto3;
-  }
-  .grealish-img4 {
-    grid-area: foto4;
-  }
-  .grealish-img5 {
-    grid-area: foto5;
-  }
-  .grealish-img6 {
-    grid-area: foto6;
-  }
-}
-
-.citysport {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: 10% repeat(2, 45%);
-  grid-gap: 5px;
-  padding: 5px;
-  align-items: stretch;
-
-  grid-template-areas:
-    "title title"
-    "p1 p2"
-    "p3 p4"
-    "p5 p6";
-
-  .citysport-title {
-    grid-area: title;
+    .grealish-title {
+      grid-area: titulo;
+    }
+    .grealish-img1 {
+      grid-area: foto1;
+    }
+    .grealish-img2 {
+      grid-area: foto2;
+    }
+    .grealish-img3 {
+      grid-area: foto3;
+    }
+    .grealish-img4 {
+      grid-area: foto4;
+    }
+    .grealish-img5 {
+      grid-area: foto5;
+    }
+    .grealish-img6 {
+      grid-area: foto6;
+    }
   }
 
-  .p1 {
-    grid-area: p1;
-  }
-  .p2 {
-    grid-area: p2;
-  }
-  .p3 {
-    grid-area: p3;
-  }
-  .p4 {
-    grid-area: p4;
-  }
-  .p5 {
-    grid-area: p5;
-  }
-  .p6 {
-    grid-area: p6;
-  }
-}
+  .citysport {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 10% repeat(2, 45%);
+    grid-gap: 5px;
+    padding: 5px;
+    align-items: stretch;
 
-.jeques {
-  display: grid;
-  grid-template-columns: 1f 1f;
-  grid-template-rows: 80% 20%;
-  justify-content: space-evenly;
-  justify-items: center;
-  align-items: stretch;
-  padding: 20px;
+    grid-template-areas:
+      "title title"
+      "p1 p2"
+      "p3 p4"
+      "p5 p6";
 
-  grid-template-areas:
-    "nombre1 nombre2"
-    "mansour khaldoon";
+    .citysport-title {
+      grid-area: title;
+    }
 
-  .mansour {
-    grid-area: mansour;
-    width: 400px;
-  }
-
-  .khaldoon {
-    grid-area: khaldoon;
-    width: 400px;
+    .p1 {
+      grid-area: p1;
+    }
+    .p2 {
+      grid-area: p2;
+    }
+    .p3 {
+      grid-area: p3;
+    }
+    .p4 {
+      grid-area: p4;
+    }
+    .p5 {
+      grid-area: p5;
+    }
+    .p6 {
+      grid-area: p6;
+    }
   }
 
-  .nombre1 {
-    grid-area: nombre1;
-    font-size: 1.5rem;
+  .jeques {
+    display: grid;
+    grid-template-columns: 1f 1f;
+    grid-template-rows: 80% 20%;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: stretch;
+    padding: 20px;
+
+    grid-template-areas:
+      "nombre1 nombre2"
+      "mansour khaldoon";
+
+    .mansour {
+      grid-area: mansour;
+      width: 400px;
+    }
+
+    .khaldoon {
+      grid-area: khaldoon;
+      width: 400px;
+    }
+
+    .nombre1 {
+      grid-area: nombre1;
+      font-size: 1.5rem;
+    }
+
+    .nombre2 {
+      grid-area: nombre2;
+      font-size: 1.5rem;
+    }
   }
 
-  .nombre2 {
-    grid-area: nombre2;
-    font-size: 1.5rem;
+  .aldar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
-}
 
-.aldar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.team {
-  li {
-    margin-bottom: 5px;
-    margin-left: 10px;
+  .team {
+    li {
+      margin-bottom: 5px;
+      margin-left: 10px;
+    }
   }
-}
 
-.tabla {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  .tabla {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
