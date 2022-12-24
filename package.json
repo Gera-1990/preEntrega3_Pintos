@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Gera-1990/Clase-10/issues"
   },
-  "homepage": "https://github.com/Gera-1990/Clase-10#readme"
+  "homepage": "https://github.com/Gera-1990/Clase-10#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }
