@@ -68,4 +68,29 @@ h2 {
   margin-bottom: 15px;
 }
 
+footer {
+  text-align: center;
+  color: white;
+  background-image: url("../img/new-background-header.jpg");
+}
+footer i {
+  color: skyblue;
+}
+footer .botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer .botones button {
+  border: none;
+  font-size: 40px;
+  background-color: transparent;
+}
+footer .botones button i {
+  color: white;
+}
+footer .botones button :hover {
+  color: skyblue;
+}
+
 /*# sourceMappingURL=style.css.map */
