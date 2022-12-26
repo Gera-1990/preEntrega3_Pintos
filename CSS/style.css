@@ -76,20 +76,15 @@ footer {
 footer i {
   color: skyblue;
 }
-footer .botones {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-footer .botones button {
+footer button {
   border: none;
-  font-size: 40px;
+  font-size: 50px;
   background-color: transparent;
 }
-footer .botones button i {
+footer button i {
   color: white;
 }
-footer .botones button :hover {
+footer button :hover {
   color: skyblue;
 }
 
