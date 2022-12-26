@@ -74,3 +74,29 @@ h2 {
   align-items: center;
   margin-bottom: 15px;
 }
+
+footer {
+  text-align: center;
+  color: white;
+  background-image: url("../img/new-background-header.jpg");
+  i {
+    color: skyblue;
+  }
+
+  .botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    button {
+      border: none;
+      font-size: 40px;
+      background-color: transparent;
+      i {
+        color: white;
+      }
+      :hover {
+        color: skyblue;
+      }
+    }
+  }
+}
