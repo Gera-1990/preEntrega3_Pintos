@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 header {
   .portada {
     text-align: center;
@@ -32,6 +36,16 @@ header {
   i {
     color: skyblue;
   }
+  nav {
+    ul {
+      align-items: center;
+      li {
+        color: skyblue;
+        font-family: impact;
+        font-weight: lighter;
+      }
+    }
+  }
 }
 
 iframe {
@@ -44,7 +58,7 @@ iframe {
     height: 250px;
   }
   .col-lg-4 {
-    padding: 10px;
+    padding: 5px;
   }
 }
 
@@ -53,26 +67,24 @@ h1 {
 }
 
 h2 {
-  background-color: skyblue;
+  background-color: rgb(42, 179, 230);
   color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 15px;
   font-weight: bold;
   text-align: center;
+  padding: 5px;
 }
 
-.carrusel {
-  height: 30%;
+.carousel {
+  img {
+    height: 500px;
+  }
 }
 
 .form {
   margin-top: 20px;
   padding: 10px;
-}
-
-.aldar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 15px;
 }
 
 footer {
