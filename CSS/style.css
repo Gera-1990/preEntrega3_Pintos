@@ -38,6 +38,26 @@ header nav ul li {
   font-weight: lighter;
 }
 
+footer {
+  text-align: center;
+  color: white;
+  background-image: url("../img/new-background-header.jpg");
+}
+footer i {
+  color: skyblue;
+}
+footer button {
+  border: none;
+  font-size: 50px;
+  background-color: transparent;
+}
+footer button i {
+  color: white;
+}
+footer button :hover {
+  color: skyblue;
+}
+
 iframe {
   width: 70%;
 }
@@ -66,26 +86,6 @@ h2 {
 
 .carousel img {
   height: 500px;
-}
-
-footer {
-  text-align: center;
-  color: white;
-  background-image: url("../img/new-background-header.jpg");
-}
-footer i {
-  color: skyblue;
-}
-footer button {
-  border: none;
-  font-size: 50px;
-  background-color: transparent;
-}
-footer button i {
-  color: white;
-}
-footer button :hover {
-  color: skyblue;
 }
 
 /*# sourceMappingURL=style.css.map */

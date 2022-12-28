@@ -1,0 +1,38 @@
+header {
+  .portada {
+    text-align: center;
+    margin-bottom: 5px;
+    animation: move 0.5s ease-in-out;
+    background-image: url("../img/new-background-header.jpg");
+    img {
+      max-width: 30%;
+    }
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateY(-100%);
+    }
+
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  i {
+    color: skyblue;
+  }
+  nav {
+    ul {
+      li {
+        color: skyblue;
+        font-family: impact;
+        font-weight: lighter;
+      }
+    }
+  }
+}

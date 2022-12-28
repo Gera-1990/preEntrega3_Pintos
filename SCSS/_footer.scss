@@ -1,0 +1,20 @@
+footer {
+  text-align: center;
+  color: white;
+
+  background-image: url("../img/new-background-header.jpg");
+  i {
+    color: skyblue;
+  }
+  button {
+    border: none;
+    font-size: 50px;
+    background-color: transparent;
+    i {
+      color: white;
+    }
+    :hover {
+      color: skyblue;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+iframe {
+  width: 70%;
+}
+
+.galeria {
+  img {
+    width: 100%;
+    height: 250px;
+  }
+  .col-lg-4 {
+    padding: 5px;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  background-color: rgb(42, 179, 230);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.carousel {
+  img {
+    height: 500px;
+  }
+}
